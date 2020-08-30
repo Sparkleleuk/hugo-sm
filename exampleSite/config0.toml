@@ -1,10 +1,10 @@
-baseURL = "https://sparkleleuk.github.io/“
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Sustainability Matters"
-theme = "hugo-ink"
-paginate = 10
+title = "Ink"
+theme = "ink"
+paginate = 5
 
-copyright = "Copyright © Sustainability Matters"
+copyright = "© Copyright notice"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -14,14 +14,14 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "ink-demo"
 
 [params]
-	subtitle = "Helping you understand the sustainability impact of today's news"
+	subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
 
 	# Optional 64x64 avatar image.
-	avatar = "earth.png"
+	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
-
+	
 	featherIconsCDN = true
 
 	mode = "auto" # "dark" or "auto"
@@ -30,41 +30,35 @@ disqusShortname = "ink-demo"
 	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
 # Nav.
-#[[menu.main]]
-#name = "Home"
-#url = "/"
-#weight = 1
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 1
-
-[[menu.main]]
-name = "Defining Sustainability"
-url = "/defsustainability"
-weight = 2
-
-[[menu.main]]
-name = "Categories"
-url = "/categories"
 weight = 3
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/sustymatters"
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/knadh/hugo-ink"
 
 [[params.social]]
 name = "RSS"
 icon = "rss"
 url = "/index.xml"
-
-[[params.social]]
-name = "Email"
-icon = "email.png"
-url = "/mailto:sustainabilityinfoservice@gmail.com"
 
 [taxonomies]
    tag = "tags"
