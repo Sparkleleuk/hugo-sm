@@ -17,7 +17,7 @@ disqusShortname = "ink-demo"
 	subtitle = "Helping you understand the sustainability impact of today's news"
 
 	# Optional 64x64 avatar image.
-	avatar = "earth.png"
+	avatar = "/earth.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
